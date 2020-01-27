@@ -1,9 +1,27 @@
+aside{
+	background-color: rgb(254,202,7);
+}
+
+h2{
+	text-align: center;
+}
+
+.contact h2{
+	background-color: rgb(64,64,64);
+	color: rgb(254,202,7);
+}
+
 .prenom
 {
-	color: blue;
+	color: red;
 }
 
 page
 {
 	display: flex;
+}
+
+img
+{
+	border-radius: 50%;
 }
