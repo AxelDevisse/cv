@@ -4,9 +4,10 @@ aside{
 
 h2{
 	text-align: center;
+	font-style: bold;
 }
 
-.contact h2{
+aside h2{
 	background-color: rgb(64,64,64);
 	color: rgb(254,202,7);
 }
