@@ -1,10 +1,44 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/police/Roboto-Regular.ttf');
+    src: url('fonts/police/Roboto-Regular.ttf') format('truetype');
+    src: url('fonts/police/Roboto-Regular.eot') format('eot'),
+    src: url('fonts/police/Roboto-Regular.svg') format('svg'),
+    src: url('fonts/police/Roboto-Regular.woff') format('woff'),
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	font-family: Roboto-Regular, sans-serif;
+	color: rgb(51,58,81);
+}
+
 aside{
 	background-color: rgb(254,202,7);
+	width: 20%;
+}
+
+.about p{
+	padding: 30px 30px 30px 30px;
+	margin: 0;
+}
+
+.contact p{
+	padding-left: 10%;
+}
+
+.portrait{
+	text-align: center;
 }
 
 h2{
 	text-align: center;
 	font-style: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 0;
 }
 
 aside h2{
@@ -12,9 +46,9 @@ aside h2{
 	color: rgb(254,202,7);
 }
 
-.prenom
+span
 {
-	color: red;
+	color: rgb(254,203,11);
 }
 
 page
@@ -25,4 +59,16 @@ page
 img
 {
 	border-radius: 50%;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+}
+
+i{
+	border: 2px solid ;
+	border-radius: 50%;
+	padding: 0.3em;
 }
