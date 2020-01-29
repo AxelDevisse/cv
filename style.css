@@ -8,7 +8,7 @@
 }
 
 body {
-	width: 100%;
+	width: 75%;
 	margin: 0 auto;
 	display: flex;
 	font-family: Roboto-Regular, sans-serif;
@@ -17,7 +17,8 @@ body {
 
 aside{
 	background-color: rgb(254,202,7);
-	width: 20%;
+	width: 30%;
+	position: relative;
 }
 
 .about p{
@@ -34,7 +35,9 @@ aside{
 
 }
 
-h2{
+aside h2{
+	background-color: rgb(64,64,64);
+	color: rgb(254,202,7);
 	text-align: center;
 	font-style: bold;
 	padding-bottom: 5px;
@@ -42,20 +45,10 @@ h2{
 	margin: 0;
 }
 
-aside h2{
-	background-color: rgb(64,64,64);
-	color: rgb(254,202,7);
-}
-
 span
 {
 	color: rgb(254,203,11);
 	font-weight: bold;
-}
-
-page
-{
-	display: flex;
 }
 
 img
@@ -73,13 +66,7 @@ img
 .icons i{
 	border: 2px solid ;
 	border-radius: 50%;
-	padding: 0.3em;
-}
-
-header{
-	padding-left: 200px;
-	padding-top: 100px;
-	padding-bottom: 10px;
+	padding: 0.2em;
 }
 
 header h1{
@@ -94,12 +81,60 @@ header h1{
 	bottom: ;
 }
 
-article {
-	display: flex;
-	padding-left: 200px;
-	padding-top: 150px;
+article i{
+	text-align: center;
+	color: rgb(254,203,11);
+	padding-right: 15px;
 }
 
-.article i{
-	text-align: center;
+.date{
+	display: flex;
 }
+
+.info{
+	display: flex;
+	padding-top: 45px;
+}
+
+.description{
+	margin-left: 150px;
+}
+
+article header{
+	border-bottom: 3px solid rgb(254,203,11);;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.home{
+	padding: 5%;
+}
+
+.block{
+	padding-top: 100px;
+}
+
+.home p{
+	margin: 0;
+}
+
+.home h3{
+	margin-top: 0;
+}
+
+.recommandations_block{
+	display: flex;
+	padding-top: 45px;
+}
+
+.recommandation_info{
+	flex: 1;
+}
+
+.hobbies{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+
