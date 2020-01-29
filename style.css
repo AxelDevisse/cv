@@ -31,6 +31,7 @@ aside{
 
 .portrait{
 	text-align: center;
+
 }
 
 h2{
@@ -60,6 +61,7 @@ page
 img
 {
 	border-radius: 50%;
+	border: solid 1px black;
 }
 
 .icons{
