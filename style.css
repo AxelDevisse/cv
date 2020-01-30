@@ -2,9 +2,9 @@
     font-family: 'Roboto-Regular';
     src: url('fonts/police/Roboto-Regular.ttf');
     src: url('fonts/police/Roboto-Regular.ttf') format('truetype');
-    src: url('fonts/police/Roboto-Regular.eot') format('eot'),
-    src: url('fonts/police/Roboto-Regular.svg') format('svg'),
-    src: url('fonts/police/Roboto-Regular.woff') format('woff'),
+    src: url('fonts/police/Roboto-Regular.eot') format('eot');
+    src: url('fonts/police/Roboto-Regular.svg') format('svg');
+    src: url('fonts/police/Roboto-Regular.woff') format('woff');
 }
 
 body {
@@ -15,6 +15,8 @@ body {
 	color: rgb(51,58,81);
 }
 
+
+
 aside{
 	background-color: rgb(254,202,7);
 	width: 30%;
@@ -24,6 +26,11 @@ aside{
 .about p{
 	padding: 30px 30px 30px 30px;
 	margin: 0;
+	text-align: justify;
+}
+
+.block p{
+	text-align: justify;
 }
 
 .contact p{
@@ -70,14 +77,19 @@ img
 }
 
 header h1{
-	font-size: 2.0em;
+	font-size: 3.0em;
+	margin-bottom: 5px;
+}
+
+.main_h2{
+	margin-bottom: 0;
 }
 
 .line{
 	position: absolute;
 	background-color: rgb(254,203,11);
-	height: 3px;
-	width: 7%;
+	height: 2px;
+	width: 5%;
 	bottom: ;
 }
 
@@ -97,7 +109,7 @@ article i{
 }
 
 .description{
-	margin-left: 150px;
+	margin-left: 15%;
 }
 
 article header{
@@ -138,3 +150,27 @@ width: 100%;
 }
 
 
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1280px) {
+
+body {
+	width: 100%;
+}
+	}
+
+@media all and (max-width: 944px) {
+
+	body{
+		flex-direction: column;
+	}
+
+	aside{
+		width: 100%;
+	}
+
+	.hobbies{
+position: relative;
+}
+
+}
