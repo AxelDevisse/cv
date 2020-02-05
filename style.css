@@ -15,8 +15,6 @@ body {
 	color: rgb(51,58,81);
 }
 
-
-
 aside{
 	background-color: rgb(254,202,7);
 	width: 30%;
@@ -39,14 +37,12 @@ aside{
 
 .portrait{
 	text-align: center;
-
 }
 
 aside h2{
 	background-color: rgb(64,64,64);
 	color: rgb(254,202,7);
 	text-align: center;
-	font-style: bold;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	margin: 0;
@@ -90,7 +86,6 @@ header h1{
 	background-color: rgb(254,203,11);
 	height: 2px;
 	width: 5%;
-	bottom: ;
 }
 
 article i{
@@ -148,7 +143,6 @@ position: absolute;
 bottom: 0;
 width: 100%;
 }
-
 
 /* MEDIA QUERIES */
 
