@@ -24,7 +24,6 @@ aside{
 .about p{
 	padding: 30px 30px 30px 30px;
 	margin: 0;
-	text-align: justify;
 }
 
 .block p{
@@ -75,6 +74,7 @@ img
 header h1{
 	font-size: 3.0em;
 	margin-bottom: 5px;
+	font-weight: normal;
 }
 
 .main_h2{
@@ -96,6 +96,8 @@ article i{
 
 .date{
 	display: flex;
+	min-width: 15%;
+
 }
 
 .info{
@@ -138,10 +140,19 @@ article header{
 	flex: 1;
 }
 
+.recommandation_info p{
+	padding-bottom: 10px;
+}
+
 .hobbies{
 position: absolute;
 bottom: 0;
 width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(51,58,81);
 }
 
 /* MEDIA QUERIES */
@@ -167,4 +178,34 @@ body {
 position: relative;
 }
 
+@media all and (max-width: 570px) {
+	.recommandations_block{
+		display: block;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.recommandation_info p{
+		text-align: center;
+	}
+
+	.recommandation_info{
+		padding-top: 15px;
+	}
+
+	.date{
+		margin-bottom: 10px;
+	}
+
+	.info{
+		flex-direction: column;
+	}
+
+	.description{
+		margin-left: 0%;
+	}
+
+	.block{
+		padding-top: 60px;
+	}
 }
