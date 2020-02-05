@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url('fonts/police/Roboto-Regular.ttf');
-    src: url('fonts/police/Roboto-Regular.ttf') format('truetype');
-    src: url('fonts/police/Roboto-Regular.eot') format('eot');
-    src: url('fonts/police/Roboto-Regular.svg') format('svg');
-    src: url('fonts/police/Roboto-Regular.woff') format('woff');
+    src: url('content/fonts/police/Roboto-Regular.ttf');
+    src: url('content/fonts/police/Roboto-Regular.ttf') format('truetype');
+    src: url('content/fonts/police/Roboto-Regular.eot') format('eot');
+    src: url('content/fonts/police/Roboto-Regular.svg') format('svg');
+    src: url('content/fonts/police/Roboto-Regular.woff') format('woff');
 }
 
 body {
