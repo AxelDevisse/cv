@@ -1,210 +1,202 @@
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('content/fonts/police/Roboto-Regular.ttf');
-    src: url('content/fonts/police/Roboto-Regular.ttf') format('truetype');
-    src: url('content/fonts/police/Roboto-Regular.eot') format('eot');
-    src: url('content/fonts/police/Roboto-Regular.svg') format('svg');
-    src: url('content/fonts/police/Roboto-Regular.woff') format('woff');
-}
-
 body {
 	width: 75%;
 	margin: 0 auto;
 	display: flex;
-	font-family: Roboto-Regular, sans-serif;
-	color: rgb(51,58,81);
+	font-family: 'Roboto', sans-serif;
+	color: rgb(51, 58, 81);
 }
 
-aside{
-	background-color: rgb(254,202,7);
+aside {
+	background-color: rgba(120, 144, 156, 0.8);
 	width: 30%;
 	position: relative;
 }
 
-.about p{
+.about p {
 	padding: 30px 30px 30px 30px;
 	margin: 0;
 }
 
-.block p{
+.block p {
 	text-align: justify;
 }
 
-.contact p{
+.contact p {
 	padding-left: 10%;
 }
 
-.portrait{
+.portrait {
 	text-align: center;
 }
 
-aside h2{
-	background-color: rgb(64,64,64);
-	color: rgb(254,202,7);
+aside h2 {
+	background-color: rgba(69, 90, 100, 1);
+	color: rgba(120, 144, 156, 1);
 	text-align: center;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	margin: 0;
 }
 
-span
-{
-	color: rgb(254,203,11);
+span {
+	color: rgba(120, 144, 156, 1);
 	font-weight: bold;
 }
 
-img
-{
+img {
 	border-radius: 50%;
-	border: solid 1px black;
+	border: solid 1px rgba(69, 90, 100, 1);
 }
 
-.icons{
+.icons {
 	display: flex;
 	justify-content: space-around;
 	padding: 15px;
 }
 
-.icons i{
-	border: 2px solid ;
+.icons i {
+	border: 2px solid;
 	border-radius: 50%;
 	padding: 0.2em;
 }
 
-header h1{
+header h1 {
 	font-size: 3.0em;
 	margin-bottom: 5px;
 	font-weight: normal;
 }
 
-.main_h2{
+.main_h2 {
 	margin-bottom: 0;
 }
 
-.line{
+.line {
 	position: absolute;
-	background-color: rgb(254,203,11);
+	background-color: rgba(120, 144, 156, 1);
 	height: 2px;
 	width: 5%;
 }
 
-article i{
+article i {
 	text-align: center;
-	color: rgb(254,203,11);
+	color: rgba(120, 144, 156, 1);
 	padding-right: 15px;
 }
 
-.date{
+.date {
 	display: flex;
 	min-width: 15%;
 
 }
 
-.info{
+.info {
 	display: flex;
 	padding-top: 45px;
 }
 
-.description{
+.description {
 	margin-left: 15%;
 }
 
-article header{
-	border-bottom: 3px solid rgb(254,203,11);;
+article header {
+	border-bottom: 3px solid rgba(120, 144, 156, 1);
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
 
-.home{
+.home {
 	padding: 5%;
 }
 
-.block{
+.block {
 	padding-top: 100px;
 }
 
-.home p{
+.home p {
 	margin: 0;
 }
 
-.home h3{
+.home h3 {
 	margin-top: 0;
 }
 
-.recommandations_block{
+.recommandations_block {
 	display: flex;
 	padding-top: 45px;
 }
 
-.recommandation_info{
+.recommandation_info {
 	flex: 1;
 }
 
-.recommandation_info p{
+.recommandation_info p {
 	padding-bottom: 10px;
 }
 
-.hobbies{
-position: absolute;
-bottom: 0;
-width: 100%;
+.hobbies {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
-a{
+a {
 	text-decoration: none;
-	color: rgb(51,58,81);
+	color: rgb(51, 58, 81);
 }
 
 /* MEDIA QUERIES */
 
 @media all and (max-width: 1280px) {
 
-body {
-	width: 100%;
-}
+	body {
+		width: 100%;
 	}
+}
 
 @media all and (max-width: 944px) {
 
-	body{
+	body {
 		flex-direction: column;
 	}
 
-	aside{
+	aside {
 		width: 100%;
 	}
 
-	.hobbies{
-position: relative;
+	.hobbies {
+		position: relative;
+	}
+
+	@media all and (max-width: 570px) {
+		.recommandations_block {
+			display: block;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		.recommandation_info p {
+			text-align: center;
+		}
+
+		.recommandation_info {
+			padding-top: 15px;
+		}
+
+		.date {
+			margin-bottom: 10px;
+		}
+
+		.info {
+			flex-direction: column;
+		}
+
+		.description {
+			margin-left: 0%;
+		}
+
+		.block {
+			padding-top: 60px;
+		}
+	}
+
 }
-
-@media all and (max-width: 570px) {
-	.recommandations_block{
-		display: block;
-		text-align: center;
-		padding-top: 20px;
-	}
-
-	.recommandation_info p{
-		text-align: center;
-	}
-
-	.recommandation_info{
-		padding-top: 15px;
-	}
-
-	.date{
-		margin-bottom: 10px;
-	}
-
-	.info{
-		flex-direction: column;
-	}
-
-	.description{
-		margin-left: 0%;
-	}
-
-	.block{
-		padding-top: 60px;
-	}
