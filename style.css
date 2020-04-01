@@ -166,6 +166,7 @@ a {
 	.hobbies {
 		position: relative;
 	}
+}
 
 	@media all and (max-width: 570px) {
 		.recommandations_block {
@@ -199,4 +200,3 @@ a {
 		}
 	}
 
-}
