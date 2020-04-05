@@ -8,7 +8,8 @@
 
 * HTML5
 * CSS3
-* GIT
+* GIT, gitignore
+* node and npm (minify and mighty-sync to watch it)
 
 
 
@@ -24,4 +25,4 @@
 * Mail : axeldevisse@gmail.com 💬
 
 
-** Thanks for reading** ❤️
+Thanks for reading ❤️
