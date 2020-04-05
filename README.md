@@ -1,6 +1,13 @@
-Axel Devisse : Parcours développeur web
+<h1 align="center">Welcome to e 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/e" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/e.svg">
+  </a>
+</p>
 
-Projet numéro 2 : Transformez votre CV en site Web
+## Show your support
 
-HTML / CSS / GIT / MAQUETTE
-NO SCSS NO BOOTSTRAP
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
