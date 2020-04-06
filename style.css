@@ -160,7 +160,7 @@ a {
 
 @media screen and  (max-width: 944px) {
 
-	.home header{
+	.home > header{
 		display: none;
 	}
 
